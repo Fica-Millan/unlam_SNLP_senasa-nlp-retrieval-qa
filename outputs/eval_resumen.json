@@ -1,0 +1,69 @@
+{
+  "tfidf": {
+    "retrieval": {
+      "Precision@5": 0.1867,
+      "Recall@5": 0.5583,
+      "HitRate@5": 0.7333,
+      "MRR": 0.4844,
+      "F1@5": 0.2595,
+      "MRR_lexica": 0.6333,
+      "MRR_semantica": 0.359,
+      "MRR_mixta": 0.5208
+    },
+    "qa": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2423,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2367,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0929
+    }
+  },
+  "embeddings": {
+    "retrieval": {
+      "Precision@5": 0.1467,
+      "Recall@5": 0.4233,
+      "HitRate@5": 0.5333,
+      "MRR": 0.3967,
+      "F1@5": 0.2015,
+      "MRR_lexica": 0.5444,
+      "MRR_semantica": 0.3077,
+      "MRR_mixta": 0.375
+    },
+    "qa": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2472,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2012,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0838
+    }
+  },
+  "hybrid": {
+    "retrieval": {
+      "Precision@5": 0.2067,
+      "Recall@5": 0.5928,
+      "HitRate@5": 0.8,
+      "MRR": 0.5606,
+      "F1@5": 0.284,
+      "MRR_lexica": 0.6333,
+      "MRR_semantica": 0.4705,
+      "MRR_mixta": 0.625
+    },
+    "qa": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2506,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2326,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0789
+    }
+  },
+  "rag_distilbert": {
+    "retrieval": "N/A — usa embedder internamente",
+    "qa": {
+      "EM_rag": 0,
+      "F1_rag": 0.1899
+    }
+  }
+}

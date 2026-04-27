@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv*/
+venv/
+env/
+
+# Modelos descargados (HuggingFace cache)
+.cache/
+~/.cache/huggingface/
+
+# Outputs generados
+# outputs/eval_retrieval.json
+# outputs/eval_qa.json
+# outputs/eval_resumen.json
+# outputs/figures/
+
+# Datos pesados opcionales
+# data/raw/pdfs/        
+
+# IDEs
+.vscode/
+.idea/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db

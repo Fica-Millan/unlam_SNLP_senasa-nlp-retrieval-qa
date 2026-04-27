@@ -1,0 +1,890 @@
+{
+  "tfidf": {
+    "metricas": {
+      "precision@k": 0.18666666666666668,
+      "hit_rate@k": 0.7333333333333333,
+      "MRR": 0.48444444444444446,
+      "F1@k": 0.2594997594997595,
+      "recall@k": 0.5583333333333333,
+      "MRR_lexica": 0.6333333333333333,
+      "HitRate_lexica": 0.8888888888888888,
+      "Precision_lexica": 0.2888888888888889,
+      "F1_lexica": 0.3888888888888889,
+      "Recall_lexica": 0.8518518518518519,
+      "MRR_semantica": 0.358974358974359,
+      "HitRate_semantica": 0.6153846153846154,
+      "Precision_semantica": 0.12307692307692308,
+      "F1_semantica": 0.18284493284493286,
+      "Recall_semantica": 0.42948717948717946,
+      "MRR_mixta": 0.5208333333333334,
+      "HitRate_mixta": 0.75,
+      "Precision_mixta": 0.17500000000000002,
+      "F1_mixta": 0.23850108225108227,
+      "Recall_mixta": 0.4375
+    },
+    "por_query": [
+      {
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 0.6666666666666666,
+        "rr": 0.25,
+        "f1": 0.5
+      },
+      {
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.5,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.5714285714285715
+      },
+      {
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.3333333333333333,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.3333333333333333,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.25,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.25,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.3333333333333333,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.25,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.2,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "precision": 1.0,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 1.0
+      },
+      {
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.5,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.3333333333333333,
+        "rr": 1.0,
+        "f1": 0.25
+      },
+      {
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.25,
+        "rr": 1.0,
+        "f1": 0.22222222222222224
+      },
+      {
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.3333333333333333,
+        "rr": 0.3333333333333333,
+        "f1": 0.25
+      },
+      {
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.16666666666666666,
+        "rr": 1.0,
+        "f1": 0.1818181818181818
+      },
+      {
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      }
+    ]
+  },
+  "embeddings": {
+    "metricas": {
+      "precision@k": 0.14666666666666667,
+      "hit_rate@k": 0.5333333333333333,
+      "MRR": 0.39666666666666667,
+      "F1@k": 0.20150793650793652,
+      "recall@k": 0.42333333333333334,
+      "MRR_lexica": 0.5444444444444444,
+      "HitRate_lexica": 0.8888888888888888,
+      "Precision_lexica": 0.2888888888888889,
+      "F1_lexica": 0.3888888888888889,
+      "Recall_lexica": 0.8518518518518519,
+      "MRR_semantica": 0.3076923076923077,
+      "HitRate_semantica": 0.38461538461538464,
+      "Precision_semantica": 0.07692307692307693,
+      "F1_semantica": 0.11446886446886448,
+      "Recall_semantica": 0.2564102564102564,
+      "MRR_mixta": 0.375,
+      "HitRate_mixta": 0.375,
+      "Precision_mixta": 0.1,
+      "F1_mixta": 0.13214285714285717,
+      "Recall_mixta": 0.2125
+    },
+    "por_query": [
+      {
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.2,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 0.6666666666666666,
+        "rr": 0.25,
+        "f1": 0.5
+      },
+      {
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.5714285714285715
+      },
+      {
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.5,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.25,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.2,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "precision": 1.0,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 1.0
+      },
+      {
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.3333333333333333,
+        "rr": 0.5,
+        "f1": 0.25
+      },
+      {
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.2,
+        "rr": 1.0,
+        "f1": 0.20000000000000004
+      }
+    ]
+  },
+  "hybrid": {
+    "metricas": {
+      "precision@k": 0.20666666666666667,
+      "hit_rate@k": 0.8,
+      "MRR": 0.5605555555555556,
+      "F1@k": 0.28402356902356907,
+      "recall@k": 0.5927777777777777,
+      "MRR_lexica": 0.6333333333333333,
+      "HitRate_lexica": 0.8888888888888888,
+      "Precision_lexica": 0.2888888888888889,
+      "F1_lexica": 0.3888888888888889,
+      "Recall_lexica": 0.8518518518518519,
+      "MRR_semantica": 0.4705128205128205,
+      "HitRate_semantica": 0.7692307692307693,
+      "Precision_semantica": 0.16923076923076924,
+      "F1_semantica": 0.24969474969474972,
+      "Recall_semantica": 0.5705128205128205,
+      "MRR_mixta": 0.625,
+      "HitRate_mixta": 0.75,
+      "Precision_mixta": 0.17500000000000002,
+      "F1_mixta": 0.2218344155844156,
+      "Recall_mixta": 0.3375
+    },
+    "por_query": [
+      {
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.25,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 0.6666666666666666,
+        "rr": 0.25,
+        "f1": 0.5
+      },
+      {
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.5,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.2,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.5714285714285715
+      },
+      {
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.25,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 1.0,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.3333333333333333,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.5,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 0.2,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 0.33333333333333337
+      },
+      {
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "precision": 1.0,
+        "hit_rate": 1.0,
+        "recall": 1.0,
+        "rr": 1.0,
+        "f1": 1.0
+      },
+      {
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.5,
+        "rr": 0.5,
+        "f1": 0.28571428571428575
+      },
+      {
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.3333333333333333,
+        "rr": 1.0,
+        "f1": 0.25
+      },
+      {
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.25,
+        "rr": 1.0,
+        "f1": 0.22222222222222224
+      },
+      {
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "precision": 0.4,
+        "hit_rate": 1.0,
+        "recall": 0.6666666666666666,
+        "rr": 0.3333333333333333,
+        "f1": 0.5
+      },
+      {
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "precision": 0.0,
+        "hit_rate": 0.0,
+        "recall": 0.0,
+        "rr": 0.0,
+        "f1": 0.0
+      },
+      {
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.16666666666666666,
+        "rr": 0.5,
+        "f1": 0.1818181818181818
+      },
+      {
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "precision": 0.2,
+        "hit_rate": 1.0,
+        "recall": 0.2,
+        "rr": 1.0,
+        "f1": 0.20000000000000004
+      }
+    ]
+  }
+}

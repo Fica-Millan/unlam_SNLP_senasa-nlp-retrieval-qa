@@ -1,0 +1,1931 @@
+{
+  "tfidf": {
+    "modelo": "tfidf",
+    "metricas": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2423,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2367,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0929
+    },
+    "por_query": [
+      {
+        "id": "Q01",
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "gold": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+        "extractivo": {
+          "respuesta": "Artículo 15 del presente marco normativo, serán categorizados con el estatus de “Establecimiento Libre de Brucelosis Bovina”, condición que debe ser mantenida de conformidad con las previsiones de la presente resolución.",
+          "EM": 0,
+          "F1": 0.0952
+        },
+        "sintetico": {
+          "respuesta": "Definición: del presente marco normativo, serán categorizados con el estatus de “Establecimiento Libre de Brucelosis Bovina”, condición que debe ser mantenida de conformidad con las previsiones de la presente resolución. la Resolución N° 150 del 6 de febrero de 2002 del mencionado Servicio Nacional, restablece el Programa de Control y Erradicación de la Brucelosis Bovina en todo el país, determinando los componentes sanitarios básicos, los cuales resulta necesario actualizar debido a los cambios en la situación sanitaria y las metodologías disponibles.",
+          "EM": 0,
+          "F1": 0.0652
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1667
+        }
+      },
+      {
+        "id": "Q02",
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "gold": "Se aprueba el Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.7742
+        },
+        "sintetico": {
+          "respuesta": "Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.8276
+        },
+        "transformer": {
+          "respuesta": "Brucelosis Bovina",
+          "EM": 0,
+          "F1": 0.2222
+        }
+      },
+      {
+        "id": "Q03",
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "gold": "Animal reaccionante positivo: animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "Artículo 2 ° de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.1212
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q04",
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "gold": "toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.2326
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales. A los efectos de la presente resolución, se entiende por producto veterinario toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento de las enfermedades de los animales, mejoradores de la producción animal, antisépticos, desinfectantes de uso ambiental o en equipamiento, y pesticidas (ectoparasiticidas) y todo otro producto que, utilizado en los animales y su hábitat, proteja, restaure o modifique sus funciones orgánicas y fisiológicas.",
+          "EM": 0,
+          "F1": 0.3023
+        },
+        "transformer": {
+          "respuesta": "Inmunógenos",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q05",
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "gold": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido",
+        "extractivo": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "sintetico": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "transformer": {
+          "respuesta": "Servicio",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q06",
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "gold": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025",
+        "extractivo": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "sintetico": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1081
+        }
+      },
+      {
+        "id": "Q07",
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "gold": "Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal",
+        "extractivo": {
+          "respuesta": "de Habilitación Sanitaria otorgada por el SENASA en cada transporte de animales vivos y mercancías de origen animal, en los formatos digital o físico, emitidos por los medios que el SENASA disponga; Inciso e) garantizar que el conductor/chofer del transporte conozca y cumpla las normas de Bienestar Animal de los animales transportados, así como también resguardar las condiciones de carga y transporte conforme surge del Anexo VII (IF-2025-103783304-APN-DNSA#SENASA) de la presente resolución; Inciso f) denunciar ante el SENASA incumplimientos a la normativa de transporte de animales vivos y manipulación de mercancías de origen animal; Inciso g) denunciar ante el SENASA la presencia de enfermedades de notificación obligatoria en los animales transportados.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "sintetico": {
+          "respuesta": "de Habilitación Sanitaria otorgada por el SENASA en cada transporte de animales vivos y mercancías de origen animal, en los formatos digital o físico, emitidos por los medios que el SENASA disponga; Inciso e) garantizar que el conductor/chofer del transporte conozca y cumpla las normas de Bienestar Animal de los animales transportados, así como también resguardar las condiciones de carga y transporte conforme surge del Anexo VII (IF-2025-103783304-APN-DNSA#SENASA) de la presente resolución; Inciso f) denunciar ante el SENASA incumplimientos a la normativa de transporte de animales vivos y manipulación de mercancías de origen animal; Inciso g) denunciar ante el SENASA la presencia de enfermedades de notificación obligatoria en los animales transportados.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "transformer": {
+          "respuesta": "ARTÍCULO 1 °.- Marco Regulatorio para la Habilitación Sanitaria",
+          "EM": 0,
+          "F1": 0.2759
+        }
+      },
+      {
+        "id": "Q08",
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "gold": "Se crean en el SENASA las Comisiones Nacionales de Sanidad y Bienestar Animal",
+        "extractivo": {
+          "respuesta": "Artículo 3 ° de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.5161
+        },
+        "sintetico": {
+          "respuesta": "de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.5517
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q09",
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "gold": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "sintetico": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1579
+        }
+      },
+      {
+        "id": "Q10",
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "gold": "Se exceptúan del cumplimiento de la última vacunación contra la Fiebre Aftosa correspondiente a la campaña en curso",
+        "extractivo": {
+          "respuesta": "La presente excepción se aplicará hasta el 31 de marzo de 2020 inclusive, pudiendo esta fecha extenderse en función de los alcances de las medidas adoptadas por el PODER EJECUTIVO NACIONAL frente a la pandemia de COVID-19.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "sintetico": {
+          "respuesta": "La presente excepción se aplicará hasta el 31 de marzo de 2020 inclusive, pudiendo esta fecha extenderse en función de los alcances de las medidas adoptadas por el PODER EJECUTIVO NACIONAL frente a la pandemia de COVID-19.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0645
+        }
+      },
+      {
+        "id": "Q11",
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "gold": "Se mantiene el Sistema Nacional de Identificación Electrónica de Animales",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.1154
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.087
+        }
+      },
+      {
+        "id": "Q12",
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "gold": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice productos veterinarios debe inscribirse en el Registro Nacional de Empresas",
+        "extractivo": {
+          "respuesta": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967.",
+          "EM": 0,
+          "F1": 0.4043
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967. (2) Son aquellos Productos Veterinarios no biológicos incluidos en el Listado de “Productos Veterinarios de Registro Simplificado” que, como Anexo II, forma parte integrante de la presente resolución. (3) Todo establecimiento donde se elaboren, acondicionen, fraccionen y/o depositen Productos Veterinarios, Productos Biológicos Veterinarios y materias primas para la elaboración de Productos Veterinarios, debe ser habilitado por este Servicio Nacional.",
+          "EM": 0,
+          "F1": 0.242
+        },
+        "transformer": {
+          "respuesta": "Requisitos para la inscripción",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q13",
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "gold": "El objetivo de las Comisiones Nacionales es contar con un ámbito participativo para compartir e intercambiar información relevante",
+        "extractivo": {
+          "respuesta": "Artículo 3 ° de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.2222
+        },
+        "sintetico": {
+          "respuesta": "de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.2353
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.129
+        }
+      },
+      {
+        "id": "Q14",
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "gold": "animal susceptible a la enfermedad en la categoría reproductores deberá contar con un certificado de seronegatividadad",
+        "extractivo": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "sintetico": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "transformer": {
+          "respuesta": "terneras de TRES (3) a OCHO (8) meses de edad",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q15",
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "gold": "Las personas propietarias de ganado bovino, bubalino y cérvido deben implementar el Sistema Nacional de Identificación Electrónica",
+        "extractivo": {
+          "respuesta": "Es obligación de los productores o tenedores de bovinos: Inciso a) Identificar sus animales con caravana oficial según la normativa vigente.",
+          "EM": 0,
+          "F1": 0.0526
+        },
+        "sintetico": {
+          "respuesta": "Es obligación de los productores o tenedores de bovinos: Inciso a) Identificar sus animales con caravana oficial según la normativa vigente.",
+          "EM": 0,
+          "F1": 0.0526
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q16",
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "gold": "sustancia química, biológica, biotecnológica o preparación manufacturada para prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "Apartado II) Productos de Tipo 2: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y se encuentran incluidos en el Apartado II del Anexo II de la presente resolución.",
+          "EM": 0,
+          "F1": 0.0
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.025
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q17",
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "gold": "animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias.",
+          "EM": 0,
+          "F1": 0.5417
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias.",
+          "EM": 0,
+          "F1": 0.5306
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q18",
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "gold": "producto veterinario cuyo principio activo es de origen biológico",
+        "extractivo": {
+          "respuesta": "Apartado II) Productos de Tipo 2: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y se encuentran incluidos en el Apartado II del Anexo II de la presente resolución.",
+          "EM": 0,
+          "F1": 0.1224
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.0789
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q19",
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "gold": "El SENASA aplicará las medidas de diagnóstico, prevención y control de la Brucelosis Bovina",
+        "extractivo": {
+          "respuesta": "Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.1667
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0741
+        }
+      },
+      {
+        "id": "Q20",
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "gold": "Los productos veterinarios registrados deberán cumplir con las especificaciones de calidad declaradas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 20 .- Recuse de denominaciones.",
+          "EM": 0,
+          "F1": 0.1176
+        },
+        "sintetico": {
+          "respuesta": "Recuse de denominaciones. La DPV puede recusar el Registro de denominaciones propuestas por las empresas inscriptas cuando pudieran inducir a falsas conclusiones sobre su composición, indicaciones terapéuticas, modo de uso, aplicación y procedencia.",
+          "EM": 0,
+          "F1": 0.0889
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.16
+        }
+      },
+      {
+        "id": "Q21",
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "gold": "Las infracciones a las disposiciones de la presente resolución serán sancionadas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 88 .- Inviolabilidad del producto.",
+          "EM": 0,
+          "F1": 0.0
+        },
+        "sintetico": {
+          "respuesta": "Inviolabilidad del producto. Las personas humanas o jurídicas que son titulares de Certificados de Uso y Comercialización de productos biológicos veterinarios, deben adoptar las medidas necesarias para que los productos biológicos, luego del proceso de producción y envasado, presenten",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q22",
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "gold": "Los productores deberán vacunar las hembras bovinas y bubalinas de entre 3 y 8 meses de edad",
+        "extractivo": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "sintetico": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q23",
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "gold": "Se prohíbe el movimiento de animales reaccionantes positivos sin autorización del SENASA",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que Que, a tales efectos, se considera necesario nuclear a los actores representativos de cada cadena productiva en Comisiones Nacionales de Sanidad y Bienestar Animal, en cuyo seno se discutan participativamente las medidas sanitarias y de bienestar animal que se requieran implementar según las necesidades de sus contextos productivos, sociales, económicos y ambientales.",
+          "EM": 0,
+          "F1": 0.0606
+        },
+        "sintetico": {
+          "respuesta": ", a tales efectos, se considera necesario nuclear a los actores representativos de cada cadena productiva en Comisiones Nacionales de Sanidad y Bienestar Animal, en cuyo seno se discutan participativamente las medidas sanitarias y de bienestar animal que se requieran implementar según las necesidades de sus contextos productivos, sociales, económicos y ambientales.",
+          "EM": 0,
+          "F1": 0.0635
+        },
+        "transformer": {
+          "respuesta": "Brucelosis Bovina",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q24",
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "gold": "El solicitante deberá presentar documentación técnica, analítica y legal del producto",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 18 .- Requisitos generales para el Registro de un Producto Veterinario no biológico.",
+          "EM": 0,
+          "F1": 0.1667
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Requisitos generales para el Registro de un Producto Veterinario no biológico. (2) A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas. (3) La titularidad del Registro de un Producto Veterinario no biológico puede transferirse siempre que se cumpla con las normas reglamentarias tanto para el cedente como para el receptor; tal pedido debe realizarse por la plataforma SIGTRÁMITES o la herramienta informática que el Organismo determine.",
+          "EM": 0,
+          "F1": 0.058
+        },
+        "transformer": {
+          "respuesta": "ARTÍCULO 18",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q25",
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "gold": "La solicitud de registro se presentará ante el SENASA con la documentación requerida",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 18 .- Requisitos generales para el Registro de un Producto Veterinario no biológico.",
+          "EM": 0,
+          "F1": 0.2308
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Requisitos generales para el Registro de un Producto Veterinario no biológico. (2) Para poder solicitar este registro, el laboratorio elaborador debe tener registrado, usar y comercializar el producto biológico en el país de origen, el que debe estar incluido dentro del listado de países con reconocimiento de registro (Anexo I “LISTADO DE PAÍSES CON RECONOCIMIENTO DE REGISTRO”. (3) La titularidad del Registro de un Producto Veterinario no biológico puede transferirse siempre que se cumpla con las normas reglamentarias tanto para el cedente como para el receptor; tal pedido debe realizarse por la plataforma SIGTRÁMITES o la herramienta informática que el Organismo determine.",
+          "EM": 0,
+          "F1": 0.1008
+        },
+        "transformer": {
+          "respuesta": "tal pedido debe realizarse por la plataforma SIGTRÁMITES",
+          "EM": 0,
+          "F1": 0.0952
+        }
+      },
+      {
+        "id": "Q26",
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "gold": "Los proveedores de dispositivos de identificación deberán inscribirse en el registro habilitado por el SENASA",
+        "extractivo": {
+          "respuesta": "A partir del 1 de diciembre de 2025, se prohíbe la comercialización de dispositivos de identificación de tipo exclusivamente visual para bovinos, bubalinos y cérvidos por parte de los Proveedores de Dispositivos Oficiales de Identificación Animal.",
+          "EM": 0,
+          "F1": 0.2353
+        },
+        "sintetico": {
+          "respuesta": "A partir del 1 de diciembre de 2025, se prohíbe la comercialización de dispositivos de identificación de tipo exclusivamente visual para bovinos, bubalinos y cérvidos por parte de los Proveedores de Dispositivos Oficiales de Identificación Animal.",
+          "EM": 0,
+          "F1": 0.2353
+        },
+        "transformer": {
+          "respuesta": "SENASA",
+          "EM": 0,
+          "F1": 0.125
+        }
+      },
+      {
+        "id": "Q27",
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "gold": "enfermedad infectocontagiosa producida por bacterias del género Brucella que afecta al ganado bovino",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Brucelosis Bovina es una enfermedad del ganado que tiene importantes consecuencias económicas y que se caracteriza por la existencia de abortos o falta de reproducción.",
+          "EM": 0,
+          "F1": 0.2439
+        },
+        "sintetico": {
+          "respuesta": "Definición: Inciso b) Brucelosis Bovina: enfermedad producida por cualquier especie de Brucella en el ganado bovino.",
+          "EM": 0,
+          "F1": 0.4138
+        },
+        "transformer": {
+          "respuesta": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+          "EM": 0,
+          "F1": 0.5
+        }
+      },
+      {
+        "id": "Q28",
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "gold": "La sanidad animal es fundamental para la producción agroalimentaria y el comercio exterior de la República Argentina",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 49 .- Facultades de la Dirección Nacional de Sanidad Animal.",
+          "EM": 0,
+          "F1": 0.2963
+        },
+        "sintetico": {
+          "respuesta": "Definición: Facultades de la Dirección Nacional de Sanidad Animal. la Organización Mundial de Sanidad Animal (OMSA) recomienda que sus miembros establezcan un marco reglamentario claro en materia de identificación y trazabilidad animal, componentes claves del desarrollo económico y rural, vinculados con la mejora de la sanidad animal, la vigilancia y la notificación de enfermedades y la seguridad sanitaria de los alimentos derivados de la producción animal.",
+          "EM": 0,
+          "F1": 0.1446
+        },
+        "transformer": {
+          "respuesta": "producción",
+          "EM": 0,
+          "F1": 0.1111
+        }
+      },
+      {
+        "id": "Q29",
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "gold": "El SENASA implementa programas nacionales de control y erradicación de enfermedades que afectan la producción animal",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.2059
+        },
+        "sintetico": {
+          "respuesta": "la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.069
+        }
+      },
+      {
+        "id": "Q30",
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "gold": "El sistema de identificación electrónica permite la trazabilidad individual de los animales a lo largo de la cadena productiva",
+        "extractivo": {
+          "respuesta": "Las empresas inscriptas como Proveedoras de Dispositivos Oficiales de Identificación Animal contarán con una clave de acceso al sistema de identificación animal para la solicitud del rango de numeración, en función del producto y de la especie a la cual esté destinado.",
+          "EM": 0,
+          "F1": 0.1639
+        },
+        "sintetico": {
+          "respuesta": "Las empresas inscriptas como Proveedoras de Dispositivos Oficiales de Identificación Animal contarán con una clave de acceso al sistema de identificación animal para la solicitud del rango de numeración, en función del producto y de la especie a la cual esté destinado.",
+          "EM": 0,
+          "F1": 0.1639
+        },
+        "transformer": {
+          "respuesta": "estándares",
+          "EM": 0,
+          "F1": 0.0
+        }
+      }
+    ]
+  },
+  "embeddings": {
+    "modelo": "embeddings",
+    "metricas": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2472,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2012,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0838
+    },
+    "por_query": [
+      {
+        "id": "Q01",
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "gold": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Brucelosis Bovina es una enfermedad del ganado que tiene importantes consecuencias económicas y que se caracteriza por la existencia de abortos o falta de reproducción.",
+          "EM": 0,
+          "F1": 0.2051
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se establecen las siguientes definiciones: Inciso a) Acta Cero: “Acta de Vacunación Única” que se utiliza para documentar la ausencia de existencias de las especies bovina y bubalina en la Unidad Productiva (UP) en discordancia con lo registrado en el Sistema Integrado de Gestión de Sanidad Animal (SIGSA) en la campaña sistemática antiaftosa y antibrucélica en curso.",
+          "EM": 0,
+          "F1": 0.0789
+        },
+        "transformer": {
+          "respuesta": "una enfermedad del ganado",
+          "EM": 0,
+          "F1": 0.2667
+        }
+      },
+      {
+        "id": "Q02",
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "gold": "Se aprueba el Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Ley N° 24.696 declara de interés nacional el control y erradicación de la enfermedad conocida como Brucelosis (Brucella abortus) en las especies bovina, ovina, suina, caprina y otras especies en todo el Territorio Nacional.",
+          "EM": 0,
+          "F1": 0.3774
+        },
+        "sintetico": {
+          "respuesta": "la Ley N° 24.696 declara de interés nacional el control y erradicación de la enfermedad conocida como Brucelosis (Brucella abortus) en las especies bovina, ovina, suina, caprina y otras especies en todo el Territorio Nacional.",
+          "EM": 0,
+          "F1": 0.3922
+        },
+        "transformer": {
+          "respuesta": "Territorio Nacional",
+          "EM": 0,
+          "F1": 0.1111
+        }
+      },
+      {
+        "id": "Q03",
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "gold": "Animal reaccionante positivo: animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "Artículo 2 ° de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.1212
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q04",
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "gold": "toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.2326
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales. A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.1307
+        },
+        "transformer": {
+          "respuesta": "Inmunógenos",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q05",
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "gold": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido",
+        "extractivo": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "sintetico": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q06",
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "gold": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025",
+        "extractivo": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "sintetico": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1081
+        }
+      },
+      {
+        "id": "Q07",
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "gold": "Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal",
+        "extractivo": {
+          "respuesta": "Que el transporte de animales vivos, productos, subproductos y derivados de origen animal es una etapa de producción crítica que debe ser controlada para garantizar la inocuidad de las mercancías transportadas.",
+          "EM": 0,
+          "F1": 0.3846
+        },
+        "sintetico": {
+          "respuesta": "Que el transporte de animales vivos, productos, subproductos y derivados de origen animal es una etapa de producción crítica que debe ser controlada para garantizar la inocuidad de las mercancías transportadas.",
+          "EM": 0,
+          "F1": 0.3846
+        },
+        "transformer": {
+          "respuesta": "Certificado Único de Lavado y Desinfección",
+          "EM": 0,
+          "F1": 0.1481
+        }
+      },
+      {
+        "id": "Q08",
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "gold": "Se crean en el SENASA las Comisiones Nacionales de Sanidad y Bienestar Animal",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.6364
+        },
+        "sintetico": {
+          "respuesta": "Inciso f) Comisión Nacional de Sanidad y Bienestar de las abejas.",
+          "EM": 0,
+          "F1": 0.4167
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q09",
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "gold": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "sintetico": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1579
+        }
+      },
+      {
+        "id": "Q10",
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "gold": "Se exceptúan del cumplimiento de la última vacunación contra la Fiebre Aftosa correspondiente a la campaña en curso",
+        "extractivo": {
+          "respuesta": "Se realiza cuando la vacunación se efectúa en más de UN (1) acto vacunal abarcando parte de las existencias de bovinos y/o bubalinos de una UP.",
+          "EM": 0,
+          "F1": 0.2273
+        },
+        "sintetico": {
+          "respuesta": "Se realiza cuando la vacunación se efectúa en más de UN (1) acto vacunal abarcando parte de las existencias de bovinos y/o bubalinos de una UP.",
+          "EM": 0,
+          "F1": 0.2273
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0645
+        }
+      },
+      {
+        "id": "Q11",
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "gold": "Se mantiene el Sistema Nacional de Identificación Electrónica de Animales",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.1154
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.087
+        }
+      },
+      {
+        "id": "Q12",
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "gold": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice productos veterinarios debe inscribirse en el Registro Nacional de Empresas",
+        "extractivo": {
+          "respuesta": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967.",
+          "EM": 0,
+          "F1": 0.4043
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967. (2) Todo laboratorio elaborador de productos biológicos veterinarios que quiera solicitar este tipo de registro para un producto debe tener certificación BPM vigente y en el caso de productos importados debe presentar el Certificado de Registro y Libre Venta vigente del producto a registrar, expedido por las autoridades sanitarias o de Registro competentes del país de origen.",
+          "EM": 0,
+          "F1": 0.2452
+        },
+        "transformer": {
+          "respuesta": "Requisitos para la inscripción",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q13",
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "gold": "El objetivo de las Comisiones Nacionales es contar con un ámbito participativo para compartir e intercambiar información relevante",
+        "extractivo": {
+          "respuesta": "Inciso f) Comisión Nacional de Sanidad y Bienestar de las abejas.",
+          "EM": 0,
+          "F1": 0.1379
+        },
+        "sintetico": {
+          "respuesta": "Inciso f) Comisión Nacional de Sanidad y Bienestar de las abejas.",
+          "EM": 0,
+          "F1": 0.1379
+        },
+        "transformer": {
+          "respuesta": "proteger la salud de las personas y de los animales",
+          "EM": 0,
+          "F1": 0.1429
+        }
+      },
+      {
+        "id": "Q14",
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "gold": "animal susceptible a la enfermedad en la categoría reproductores deberá contar con un certificado de seronegatividadad",
+        "extractivo": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "sintetico": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "transformer": {
+          "respuesta": "terneras de TRES (3) a OCHO (8) meses de edad",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q15",
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "gold": "Las personas propietarias de ganado bovino, bubalino y cérvido deben implementar el Sistema Nacional de Identificación Electrónica",
+        "extractivo": {
+          "respuesta": "Los productores que implementen la identificación electrónica oficial a la que se refiere la presente norma deben aplicar los dispositivos de acuerdo con las exigencias técnicas de la normativa oficial en vigencia para cada especie animal.",
+          "EM": 0,
+          "F1": 0.1887
+        },
+        "sintetico": {
+          "respuesta": "Los productores que implementen la identificación electrónica oficial a la que se refiere la presente norma deben aplicar los dispositivos de acuerdo con las exigencias técnicas de la normativa oficial en vigencia para cada especie animal.",
+          "EM": 0,
+          "F1": 0.1887
+        },
+        "transformer": {
+          "respuesta": "especie animal",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q16",
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "gold": "sustancia química, biológica, biotecnológica o preparación manufacturada para prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.1739
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales. A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.0882
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q17",
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "gold": "animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias.",
+          "EM": 0,
+          "F1": 0.5417
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias. A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.2476
+        },
+        "transformer": {
+          "respuesta": "Todo establecimiento en el cual se detecten animales reaccionantes positivos bajo cualquier circunstancia",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q18",
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "gold": "producto veterinario cuyo principio activo es de origen biológico",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.1231
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales. A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.0606
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q19",
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "gold": "El SENASA aplicará las medidas de diagnóstico, prevención y control de la Brucelosis Bovina",
+        "extractivo": {
+          "respuesta": "Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.1667
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0741
+        }
+      },
+      {
+        "id": "Q20",
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "gold": "Los productos veterinarios registrados deberán cumplir con las especificaciones de calidad declaradas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 20 .- Recuse de denominaciones.",
+          "EM": 0,
+          "F1": 0.1176
+        },
+        "sintetico": {
+          "respuesta": "Recuse de denominaciones. La DPV puede recusar el Registro de denominaciones propuestas por las empresas inscriptas cuando pudieran inducir a falsas conclusiones sobre su composición, indicaciones terapéuticas, modo de uso, aplicación y procedencia.",
+          "EM": 0,
+          "F1": 0.0889
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.16
+        }
+      },
+      {
+        "id": "Q21",
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "gold": "Las infracciones a las disposiciones de la presente resolución serán sancionadas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 88 .- Inviolabilidad del producto.",
+          "EM": 0,
+          "F1": 0.0
+        },
+        "sintetico": {
+          "respuesta": "Inviolabilidad del producto. Las personas humanas o jurídicas que son titulares de Certificados de Uso y Comercialización de productos biológicos veterinarios, deben adoptar las medidas necesarias para que los productos biológicos, luego del proceso de producción y envasado, presenten",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q22",
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "gold": "Los productores deberán vacunar las hembras bovinas y bubalinas de entre 3 y 8 meses de edad",
+        "extractivo": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "sintetico": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q23",
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "gold": "Se prohíbe el movimiento de animales reaccionantes positivos sin autorización del SENASA",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Resolución N° 150 del 6 de febrero de 2002 del mencionado Servicio Nacional, restablece el Programa de Control y Erradicación de la Brucelosis Bovina en todo el país, determinando los componentes sanitarios básicos, los cuales resulta necesario actualizar debido a los cambios en la situación sanitaria y las metodologías disponibles.",
+          "EM": 0,
+          "F1": 0.0923
+        },
+        "sintetico": {
+          "respuesta": "la Resolución N° 150 del 6 de febrero de 2002 del mencionado Servicio Nacional, restablece el Programa de Control y Erradicación de la Brucelosis Bovina en todo el país, determinando los componentes sanitarios básicos, los cuales resulta necesario actualizar debido a los cambios en la situación sanitaria y las metodologías disponibles.",
+          "EM": 0,
+          "F1": 0.0952
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.08
+        }
+      },
+      {
+        "id": "Q24",
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "gold": "El solicitante deberá presentar documentación técnica, analítica y legal del producto",
+        "extractivo": {
+          "respuesta": "Todo producto biológico veterinario debe inscribirse en el Registro Nacional de Productos Veterinarios creado por el Decreto N° 583/67, de conformidad con lo dispuesto en la Resolución N° RESOL-2024-1065-APN-PRES#SENASA del 11 de septiembre de 2024 del SERVICIO NACIONAL DE SANIDAD Y CALIDAD AGROALIMENTARIA y el presente marco normativo.",
+          "EM": 0,
+          "F1": 0.1356
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Todo producto biológico veterinario debe inscribirse en el Registro Nacional de Productos Veterinarios creado por el Decreto N° 583/67, de conformidad con lo dispuesto en la Resolución N° RESOL-2024-1065-APN-PRES#SENASA del 11 de septiembre de 2024 del SERVICIO NACIONAL DE SANIDAD Y CALIDAD AGROALIMENTARIA y el presente marco normativo. (2) Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.0976
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0833
+        }
+      },
+      {
+        "id": "Q25",
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "gold": "La solicitud de registro se presentará ante el SENASA con la documentación requerida",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 15 .- Productos Veterinarios no biológicos de Registro Automático.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios. (2) Inciso b) Certificado de Registro y Libre Venta expedido por las autoridades sanitarias o de Registro competentes del país de origen o reconocidas por estas o, en su defecto, autorización de fabricación expedida por las mencionadas autoridades, en las cuales debe constar la fórmula completa del producto como así también los datos del sitio",
+          "EM": 0,
+          "F1": 0.0667
+        },
+        "transformer": {
+          "respuesta": "Declaración Jurada",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q26",
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "gold": "Los proveedores de dispositivos de identificación deberán inscribirse en el registro habilitado por el SENASA",
+        "extractivo": {
+          "respuesta": "Los interesados deben contar con sus dispositivos aprobados bajo la siguiente modalidad: Inciso a) certificado emitido por el ICAR, debiendo presentar las siguientes certificaciones: Apartado I) caravanas del tipo “botón-botón” con RFID: deben contar con la certificación del ICAR denominada “Full Certification”, Apartado II) caravana “tipo cinta”, dispositivos inyectables y bolos ruminales con RFID: deben contar con las certificaciones del ICAR denominadas “Performance” o “Conformance”, Apartado III) dispositivos plásticos: deben contar con la certificación del ICAR de caravanas convencionales plásticas, Apartado IV) los proveedores deben adjuntar los certificados y los test report del ICAR; Inciso b) la certificación del ICAR tendrá una validez de CINCO (5) años; Inciso c) el SENASA, en caso de",
+          "EM": 0,
+          "F1": 0.124
+        },
+        "sintetico": {
+          "respuesta": "Los interesados deben contar con sus dispositivos aprobados bajo la siguiente modalidad: Inciso a) certificado emitido por el ICAR, debiendo presentar las siguientes certificaciones: Apartado I) caravanas del tipo “botón-botón” con RFID: deben contar con la certificación del ICAR denominada “Full Certification”, Apartado II) caravana “tipo cinta”, dispositivos inyectables y bolos ruminales con RFID: deben contar con las certificaciones del ICAR denominadas “Performance” o “Conformance”, Apartado III) dispositivos plásticos: deben contar con la certificación del ICAR de caravanas convencionales plásticas, Apartado IV) los proveedores deben adjuntar los certificados y los test report del ICAR; Inciso b) la certificación del ICAR tendrá una validez de CINCO (5) años; Inciso c) el SENASA, en caso de",
+          "EM": 0,
+          "F1": 0.124
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.2143
+        }
+      },
+      {
+        "id": "Q27",
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "gold": "enfermedad infectocontagiosa producida por bacterias del género Brucella que afecta al ganado bovino",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Brucelosis Bovina es una enfermedad del ganado que tiene importantes consecuencias económicas y que se caracteriza por la existencia de abortos o falta de reproducción.",
+          "EM": 0,
+          "F1": 0.2439
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se establecen las siguientes definiciones: Inciso a) Acta Cero: “Acta de Vacunación Única” que se utiliza para documentar la ausencia de existencias de las especies bovina y bubalina en la Unidad Productiva (UP) en discordancia con lo registrado en el Sistema Integrado de Gestión de Sanidad Animal (SIGSA) en la campaña sistemática antiaftosa y antibrucélica en curso.",
+          "EM": 0,
+          "F1": 0.0256
+        },
+        "transformer": {
+          "respuesta": "enfermedad del ganado",
+          "EM": 0,
+          "F1": 0.375
+        }
+      },
+      {
+        "id": "Q28",
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "gold": "La sanidad animal es fundamental para la producción agroalimentaria y el comercio exterior de la República Argentina",
+        "extractivo": {
+          "respuesta": "Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal de la REPÚBLICA ARGENTINA, como marco regulatorio consolidado e integral para toda la temática y que funcionará en el ámbito de la  AGROALIMENTARIA (SENASA).",
+          "EM": 0,
+          "F1": 0.2903
+        },
+        "sintetico": {
+          "respuesta": "Definición: Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal de la REPÚBLICA ARGENTINA, como marco regulatorio consolidado e integral para toda la temática y que funcionará en el ámbito de la  AGROALIMENTARIA (SENASA). de la sanidad animal y la salud pública, y determina que el tránsito o movimiento de mercancías en el territorio de la REPÚBLICA ARGENTINA debe efectuarse al amparo del Documento de Tránsito electrónico (DT-e).",
+          "EM": 0,
+          "F1": 0.2062
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q29",
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "gold": "El SENASA implementa programas nacionales de control y erradicación de enfermedades que afectan la producción animal",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que Que, en materia de sanidad animal, la prevención es un requisito esencial en la gestión de las enfermedades transmisibles de los animales, y son los titulares de las explotaciones agropecuarias y de los animales, los actores clave para una gestión eficaz de la prevención sanitaria, además de la autoridad competente.",
+          "EM": 0,
+          "F1": 0.1765
+        },
+        "sintetico": {
+          "respuesta": ", en materia de sanidad animal, la prevención es un requisito esencial en la gestión de las enfermedades transmisibles de los animales, y son los titulares de las explotaciones agropecuarias y de los animales, los actores clave para una gestión eficaz de la prevención sanitaria, además de la autoridad competente.",
+          "EM": 0,
+          "F1": 0.1538
+        },
+        "transformer": {
+          "respuesta": "animales enfermos",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q30",
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "gold": "El sistema de identificación electrónica permite la trazabilidad individual de los animales a lo largo de la cadena productiva",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.1972
+        },
+        "sintetico": {
+          "respuesta": "la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.2029
+        },
+        "transformer": {
+          "respuesta": "animal",
+          "EM": 0,
+          "F1": 0.0
+        }
+      }
+    ]
+  },
+  "hybrid": {
+    "modelo": "hybrid",
+    "metricas": {
+      "EM_extractivo": 0,
+      "F1_extractivo": 0.2506,
+      "EM_sintetico": 0,
+      "F1_sintetico": 0.2326,
+      "EM_transformer": 0,
+      "F1_transformer": 0.0789
+    },
+    "por_query": [
+      {
+        "id": "Q01",
+        "query": "¿Qué es la brucelosis bovina?",
+        "tipo": "semantica",
+        "gold": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se establecen las siguientes definiciones: Inciso a) Acta Cero: “Acta de Vacunación Única” que se utiliza para documentar la ausencia de existencias de las especies bovina y bubalina en la Unidad Productiva (UP) en discordancia con lo registrado en el Sistema Integrado de Gestión de Sanidad Animal (SIGSA) en la campaña sistemática antiaftosa y antibrucélica en curso.",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se establecen las siguientes definiciones: Inciso a) Acta Cero: “Acta de Vacunación Única” que se utiliza para documentar la ausencia de existencias de las especies bovina y bubalina en la Unidad Productiva (UP) en discordancia con lo registrado en el Sistema Integrado de Gestión de Sanidad Animal (SIGSA) en la campaña sistemática antiaftosa y antibrucélica en curso. A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.0758
+        },
+        "transformer": {
+          "respuesta": "una enfermedad del ganado",
+          "EM": 0,
+          "F1": 0.2667
+        }
+      },
+      {
+        "id": "Q02",
+        "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+        "tipo": "lexica",
+        "gold": "Se aprueba el Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.7742
+        },
+        "sintetico": {
+          "respuesta": "Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.8276
+        },
+        "transformer": {
+          "respuesta": "Territorio Nacional",
+          "EM": 0,
+          "F1": 0.1111
+        }
+      },
+      {
+        "id": "Q03",
+        "query": "artículo 2 brucelosis definiciones",
+        "tipo": "lexica",
+        "gold": "Animal reaccionante positivo: animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "Artículo 2 ° de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: de la precitada ley se declaran de orden público las normas nacionales por las cuales se instrumenta o reglamenta el desarrollo de las acciones destinadas a preservar la sanidad animal y la protección de las especies de origen vegetal y la condición higiénico-sanitaria de los alimentos.",
+          "EM": 0,
+          "F1": 0.1212
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q04",
+        "query": "¿Qué se entiende por producto veterinario?",
+        "tipo": "semantica",
+        "gold": "toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.2326
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales. A los efectos de la presente resolución, se entiende por producto veterinario toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento de las enfermedades de los animales, mejoradores de la producción animal, antisépticos, desinfectantes de uso ambiental o en equipamiento, y pesticidas (ectoparasiticidas) y todo otro producto que, utilizado en los animales y su hábitat, proteja, restaure o modifique sus funciones orgánicas y fisiológicas.",
+          "EM": 0,
+          "F1": 0.3023
+        },
+        "transformer": {
+          "respuesta": "Inmunógenos",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q05",
+        "query": "identificación electrónica obligatoria ganado bovino",
+        "tipo": "mixta",
+        "gold": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido",
+        "extractivo": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "sintetico": {
+          "respuesta": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido, mediante el uso de binomio compuesto por una tarjeta visual y un dispositivo electrónico -botón de identificación por radiofrecuencia (RFID), bolo RFID o bien transpondedor inyectable- de conformidad con lo dispuesto por la Resolución N° RESOL-2025-530-APN-PRES#SENASA del 18 de julio de 2025delSERVICIONACIONALDESANIDADYCALIDADAGROALIMENTARIA(SENASA).",
+          "EM": 0,
+          "F1": 0.4211
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q06",
+        "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+        "tipo": "lexica",
+        "gold": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025",
+        "extractivo": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "sintetico": {
+          "respuesta": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025 en el Anexo I (IF-2025-100080543-APN-DNSA#SENASA), y a partir del 2026 en el Anexo III (IF- 2025-100080861-APN-DNSA#SENASA), los cuales forman parte integrante de la presente resolución.",
+          "EM": 0,
+          "F1": 0.5753
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1081
+        }
+      },
+      {
+        "id": "Q07",
+        "query": "¿Qué regula la normativa de transporte de animales vivos?",
+        "tipo": "semantica",
+        "gold": "Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal",
+        "extractivo": {
+          "respuesta": "de Habilitación Sanitaria otorgada por el SENASA en cada transporte de animales vivos y mercancías de origen animal, en los formatos digital o físico, emitidos por los medios que el SENASA disponga; Inciso e) garantizar que el conductor/chofer del transporte conozca y cumpla las normas de Bienestar Animal de los animales transportados, así como también resguardar las condiciones de carga y transporte conforme surge del Anexo VII (IF-2025-103783304-APN-DNSA#SENASA) de la presente resolución; Inciso f) denunciar ante el SENASA incumplimientos a la normativa de transporte de animales vivos y manipulación de mercancías de origen animal; Inciso g) denunciar ante el SENASA la presencia de enfermedades de notificación obligatoria en los animales transportados.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "sintetico": {
+          "respuesta": "de Habilitación Sanitaria otorgada por el SENASA en cada transporte de animales vivos y mercancías de origen animal, en los formatos digital o físico, emitidos por los medios que el SENASA disponga; Inciso e) garantizar que el conductor/chofer del transporte conozca y cumpla las normas de Bienestar Animal de los animales transportados, así como también resguardar las condiciones de carga y transporte conforme surge del Anexo VII (IF-2025-103783304-APN-DNSA#SENASA) de la presente resolución; Inciso f) denunciar ante el SENASA incumplimientos a la normativa de transporte de animales vivos y manipulación de mercancías de origen animal; Inciso g) denunciar ante el SENASA la presencia de enfermedades de notificación obligatoria en los animales transportados.",
+          "EM": 0,
+          "F1": 0.1818
+        },
+        "transformer": {
+          "respuesta": "Certificado Único de Lavado y Desinfección",
+          "EM": 0,
+          "F1": 0.1481
+        }
+      },
+      {
+        "id": "Q08",
+        "query": "comisiones nacionales de sanidad animal creación",
+        "tipo": "mixta",
+        "gold": "Se crean en el SENASA las Comisiones Nacionales de Sanidad y Bienestar Animal",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.6364
+        },
+        "sintetico": {
+          "respuesta": "de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.5517
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q09",
+        "query": "prevención fiebre aftosa frontera norte Argentina",
+        "tipo": "lexica",
+        "gold": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA",
+        "extractivo": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "sintetico": {
+          "respuesta": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA, de conformidad con lo establecido en la presente resolución.",
+          "EM": 0,
+          "F1": 0.7119
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.1579
+        }
+      },
+      {
+        "id": "Q10",
+        "query": "excepción vacunación aftosa por pandemia COVID",
+        "tipo": "semantica",
+        "gold": "Se exceptúan del cumplimiento de la última vacunación contra la Fiebre Aftosa correspondiente a la campaña en curso",
+        "extractivo": {
+          "respuesta": "Dicha excepción procederá solo cuando estos animales se destinen a establecimientos que, al momento de la recepción, tampoco hayan cumplimentado o completado en su totalidad la vacunación correspondiente a la Primera Campaña de vacunación contra la Fiebre Aftosa del corriente año.",
+          "EM": 0,
+          "F1": 0.4068
+        },
+        "sintetico": {
+          "respuesta": "Dicha excepción procederá solo cuando estos animales se destinen a establecimientos que, al momento de la recepción, tampoco hayan cumplimentado o completado en su totalidad la vacunación correspondiente a la Primera Campaña de vacunación contra la Fiebre Aftosa del corriente año.",
+          "EM": 0,
+          "F1": 0.4068
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0645
+        }
+      },
+      {
+        "id": "Q11",
+        "query": "artículo 1 resolución 530 identificación electrónica",
+        "tipo": "lexica",
+        "gold": "Se mantiene el Sistema Nacional de Identificación Electrónica de Animales",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Marco Regulatorio para la importación, exportación, elaboración, tenencia, fraccionamiento, distribución, depósito y/o comercialización de productos veterinarios, productos biológicos, control de series biológicas y materias primas que se destinen a la elaboración de Productos Veterinarios en la REPÚBLICA ARGENTINA.",
+          "EM": 0,
+          "F1": 0.1154
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.087
+        }
+      },
+      {
+        "id": "Q12",
+        "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+        "tipo": "semantica",
+        "gold": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice productos veterinarios debe inscribirse en el Registro Nacional de Empresas",
+        "extractivo": {
+          "respuesta": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967.",
+          "EM": 0,
+          "F1": 0.4043
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice, importe, exporte o deposite Productos Veterinarios incluyendo a los Productos Biológicos Veterinarios, materias primas y/o principios activos para la elaboración de dichos productos, para sí y/o para terceros, en adelante “Empresa”, debe estar inscripta en el Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, de acuerdo con lo dispuesto en el Decreto N° 583 del 31 de enero de 1967. (2) Todo establecimiento donde se elaboren, acondicionen, fraccionen y/o depositen Productos Veterinarios, Productos Biológicos Veterinarios y materias primas para la elaboración de Productos Veterinarios, debe ser habilitado por este Servicio Nacional. (3) Documentación para registrar Productos Veterinarios no biológicos importados.",
+          "EM": 0,
+          "F1": 0.2754
+        },
+        "transformer": {
+          "respuesta": "Requisitos para la inscripción",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q13",
+        "query": "objetivo comisiones sanidad bienestar animal",
+        "tipo": "mixta",
+        "gold": "El objetivo de las Comisiones Nacionales es contar con un ámbito participativo para compartir e intercambiar información relevante",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 1 °.- Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.2222
+        },
+        "sintetico": {
+          "respuesta": "de la presente resolución, a formar parte de las Comisiones Nacionales de Sanidad y Bienestar Animal.",
+          "EM": 0,
+          "F1": 0.2353
+        },
+        "transformer": {
+          "respuesta": "Comisión Nacional de Sanidad y Bienestar de los animales acuáticos",
+          "EM": 0,
+          "F1": 0.0714
+        }
+      },
+      {
+        "id": "Q14",
+        "query": "vacunación antibrucélica obligatoria hembras bovinas",
+        "tipo": "lexica",
+        "gold": "animal susceptible a la enfermedad en la categoría reproductores deberá contar con un certificado de seronegatividadad",
+        "extractivo": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "sintetico": {
+          "respuesta": "La vacunación antibrucélica es obligatoria en todo el país, excepto en la Provincia de TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR, para todas las terneras de TRES (3) a OCHO (8) meses de edad, con vacuna Brucella abortus Cepa 19, la cual debe ser previamente aprobada por el  queda sujeto a la previa aprobación del SENASA y a la determinación por parte de este Servicio Nacional de las condiciones de su registro y uso.",
+          "EM": 0,
+          "F1": 0.1087
+        },
+        "transformer": {
+          "respuesta": "terneras de TRES (3) a OCHO (8) meses de edad",
+          "EM": 0,
+          "F1": 0.1538
+        }
+      },
+      {
+        "id": "Q15",
+        "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+        "tipo": "semantica",
+        "gold": "Las personas propietarias de ganado bovino, bubalino y cérvido deben implementar el Sistema Nacional de Identificación Electrónica",
+        "extractivo": {
+          "respuesta": "Los productores deben adquirir los dispositivos oficiales de identificación individual electrónica animal a través de los Proveedores de Dispositivos Oficiales de Identificación Animal debidamente inscriptos conforme la normativa vigente, y de su red de distribución.",
+          "EM": 0,
+          "F1": 0.1923
+        },
+        "sintetico": {
+          "respuesta": "Los productores deben adquirir los dispositivos oficiales de identificación individual electrónica animal a través de los Proveedores de Dispositivos Oficiales de Identificación Animal debidamente inscriptos conforme la normativa vigente, y de su red de distribución.",
+          "EM": 0,
+          "F1": 0.1923
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q16",
+        "query": "definicion producto veterinario",
+        "tipo": "semantica",
+        "gold": "sustancia química, biológica, biotecnológica o preparación manufacturada para prevención, diagnóstico, curación o tratamiento",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.0253
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas. A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.0882
+        },
+        "transformer": {
+          "respuesta": "ARTÍCULO 12 .- Producto Veterinario no biológico. Definición",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q17",
+        "query": "que es un animal reaccionante positivo",
+        "tipo": "semantica",
+        "gold": "animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias.",
+          "EM": 0,
+          "F1": 0.5417
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se definen los siguientes términos: Inciso a) Animal reaccionante positivo: animal reaccionante positivo a aquel animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias. A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.2476
+        },
+        "transformer": {
+          "respuesta": "respuesta inmunitaria de los animales",
+          "EM": 0,
+          "F1": 0.1111
+        }
+      },
+      {
+        "id": "Q18",
+        "query": "definicion producto biologico veterinario",
+        "tipo": "semantica",
+        "gold": "producto veterinario cuyo principio activo es de origen biológico",
+        "extractivo": {
+          "respuesta": "A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas.",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, los productos veterinarios se clasifican en: De Registro Automático: Apartado I) Productos de tipo I: son aquellos productos que, estando incluidos en la definición de Producto Veterinario, no son considerados Medicamentos de Uso Veterinario, y que por sus características propias no cumplen acciones farmacológicas, ni modifican la homeostasis de los organismos y carecen de indicaciones médicas preventivas o curativas. A los fines de la presente resolución, se define Producto Biológico Veterinario: Inciso a) Inmunógenos: se entiende por producto veterinario biológico a toda sustancia de uso veterinario de naturaleza biológica o biotecnológica, destinada a la prevención, tratamiento o control de una enfermedad, a través de la estimulación o regulación de la respuesta inmunitaria de los animales.",
+          "EM": 0,
+          "F1": 0.0606
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q19",
+        "query": "articulo 3 resolucion 067 brucelosis",
+        "tipo": "lexica",
+        "gold": "El SENASA aplicará las medidas de diagnóstico, prevención y control de la Brucelosis Bovina",
+        "extractivo": {
+          "respuesta": "Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "sintetico": {
+          "respuesta": "El artículo consultado establece: Registro Nacional de Empresas Elaboradoras, Importadoras, Exportadoras y Distribuidoras de Productos Veterinarios, incluyendo a los Productos Biológicos Veterinarios.",
+          "EM": 0,
+          "F1": 0.1667
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0741
+        }
+      },
+      {
+        "id": "Q20",
+        "query": "articulo 20 resolucion 011 productos veterinarios",
+        "tipo": "lexica",
+        "gold": "Los productos veterinarios registrados deberán cumplir con las especificaciones de calidad declaradas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 20 .- Recuse de denominaciones.",
+          "EM": 0,
+          "F1": 0.1176
+        },
+        "sintetico": {
+          "respuesta": "Recuse de denominaciones. La DPV puede recusar el Registro de denominaciones propuestas por las empresas inscriptas cuando pudieran inducir a falsas conclusiones sobre su composición, indicaciones terapéuticas, modo de uso, aplicación y procedencia.",
+          "EM": 0,
+          "F1": 0.0889
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.16
+        }
+      },
+      {
+        "id": "Q21",
+        "query": "articulo 88 resolucion 011",
+        "tipo": "lexica",
+        "gold": "Las infracciones a las disposiciones de la presente resolución serán sancionadas",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 88 .- Inviolabilidad del producto.",
+          "EM": 0,
+          "F1": 0.0
+        },
+        "sintetico": {
+          "respuesta": "Inviolabilidad del producto. Las personas humanas o jurídicas que son titulares de Certificados de Uso y Comercialización de productos biológicos veterinarios, deben adoptar las medidas necesarias para que los productos biológicos, luego del proceso de producción y envasado, presenten",
+          "EM": 0,
+          "F1": 0.08
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q22",
+        "query": "obligaciones de los productores bovinos brucelosis",
+        "tipo": "mixta",
+        "gold": "Los productores deberán vacunar las hembras bovinas y bubalinas de entre 3 y 8 meses de edad",
+        "extractivo": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "sintetico": {
+          "respuesta": "Las personas humanas o jurídicas propietarias, poseedoras o tenedoras de ganado, en adelante “los productores”, implementarán el aludido Sistema Nacional de acuerdo con las siguientes modalidades: Inciso a) de forma voluntaria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, hasta el 31 de diciembre de 2025 inclusive; Apartado II) para los productores de ovinos, caprinos, camélidos y porcinos; Inciso b) de forma obligatoria: Apartado I) para los productores de bovinos, bubalinos y cérvidos, a partir del 1 de enero de 2026, momento desde el cual los productores ganaderos deben identificar todos los terneros/as al destete o en forma previa al primer movimiento, conforme lo establecido en la Resolución N° RESOL-2024-71-APN-SAGYP#MEC del 16",
+          "EM": 0,
+          "F1": 0.0763
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q23",
+        "query": "medidas sanitarias obligatorias brucelosis",
+        "tipo": "mixta",
+        "gold": "Se prohíbe el movimiento de animales reaccionantes positivos sin autorización del SENASA",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que por la Resolución N° 1 del 2 de enero de 2018 del citado Servicio Nacional se establecen los procedimientos para la acreditación y registro de veterinarios privados, facultados para realizar tareas sanitarias inherentes al Plan Nacional de Control y Erradicación de Brucelosis Bovina.",
+          "EM": 0,
+          "F1": 0.1053
+        },
+        "sintetico": {
+          "respuesta": "por la Resolución N° 1 del 2 de enero de 2018 del citado Servicio Nacional se establecen los procedimientos para la acreditación y registro de veterinarios privados, facultados para realizar tareas sanitarias inherentes al Plan Nacional de Control y Erradicación de Brucelosis Bovina.",
+          "EM": 0,
+          "F1": 0.1091
+        },
+        "transformer": {
+          "respuesta": "Brucelosis Bovina",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q24",
+        "query": "requisitos para registrar producto veterinario no biologico",
+        "tipo": "mixta",
+        "gold": "El solicitante deberá presentar documentación técnica, analítica y legal del producto",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 18 .- Requisitos generales para el Registro de un Producto Veterinario no biológico.",
+          "EM": 0,
+          "F1": 0.1667
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Requisitos generales para el Registro de un Producto Veterinario no biológico. (2) Todo producto biológico veterinario debe inscribirse en el Registro Nacional de Productos Veterinarios creado por el Decreto N° 583/67, de conformidad con lo dispuesto en la Resolución N° RESOL-2024-1065-APN-PRES#SENASA del 11 de septiembre de 2024 del SERVICIO NACIONAL DE SANIDAD Y CALIDAD AGROALIMENTARIA y el presente marco normativo.",
+          "EM": 0,
+          "F1": 0.1067
+        },
+        "transformer": {
+          "respuesta": "ARTÍCULO 18",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q25",
+        "query": "como solicitar el registro de un producto veterinario",
+        "tipo": "semantica",
+        "gold": "La solicitud de registro se presentará ante el SENASA con la documentación requerida",
+        "extractivo": {
+          "respuesta": "ARTÍCULO 18 .- Requisitos generales para el Registro de un Producto Veterinario no biológico.",
+          "EM": 0,
+          "F1": 0.2308
+        },
+        "sintetico": {
+          "respuesta": "La normativa establece: (1) Requisitos generales para el Registro de un Producto Veterinario no biológico. (2) Inciso b) Certificado de Registro y Libre Venta expedido por las autoridades sanitarias o de Registro competentes del país de origen o reconocidas por estas o, en su defecto, autorización de fabricación expedida por las mencionadas autoridades, en las cuales debe constar la fórmula completa del producto como así también los datos del sitio",
+          "EM": 0,
+          "F1": 0.0964
+        },
+        "transformer": {
+          "respuesta": "Declaración Jurada",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q26",
+        "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+        "tipo": "semantica",
+        "gold": "Los proveedores de dispositivos de identificación deberán inscribirse en el registro habilitado por el SENASA",
+        "extractivo": {
+          "respuesta": "Los interesados deben contar con sus dispositivos aprobados bajo la siguiente modalidad: Inciso a) certificado emitido por el ICAR, debiendo presentar las siguientes certificaciones: Apartado I) caravanas del tipo “botón-botón” con RFID: deben contar con la certificación del ICAR denominada “Full Certification”, Apartado II) caravana “tipo cinta”, dispositivos inyectables y bolos ruminales con RFID: deben contar con las certificaciones del ICAR denominadas “Performance” o “Conformance”, Apartado III) dispositivos plásticos: deben contar con la certificación del ICAR de caravanas convencionales plásticas, Apartado IV) los proveedores deben adjuntar los certificados y los test report del ICAR; Inciso b) la certificación del ICAR tendrá una validez de CINCO (5) años; Inciso c) el SENASA, en caso de",
+          "EM": 0,
+          "F1": 0.124
+        },
+        "sintetico": {
+          "respuesta": "Los interesados deben contar con sus dispositivos aprobados bajo la siguiente modalidad: Inciso a) certificado emitido por el ICAR, debiendo presentar las siguientes certificaciones: Apartado I) caravanas del tipo “botón-botón” con RFID: deben contar con la certificación del ICAR denominada “Full Certification”, Apartado II) caravana “tipo cinta”, dispositivos inyectables y bolos ruminales con RFID: deben contar con las certificaciones del ICAR denominadas “Performance” o “Conformance”, Apartado III) dispositivos plásticos: deben contar con la certificación del ICAR de caravanas convencionales plásticas, Apartado IV) los proveedores deben adjuntar los certificados y los test report del ICAR; Inciso b) la certificación del ICAR tendrá una validez de CINCO (5) años; Inciso c) el SENASA, en caso de",
+          "EM": 0,
+          "F1": 0.124
+        },
+        "transformer": {
+          "respuesta": "normativa vigente",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q27",
+        "query": "brucelosis bovina que es enfermedad",
+        "tipo": "semantica",
+        "gold": "enfermedad infectocontagiosa producida por bacterias del género Brucella que afecta al ganado bovino",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la Brucelosis Bovina es una enfermedad del ganado que tiene importantes consecuencias económicas y que se caracteriza por la existencia de abortos o falta de reproducción.",
+          "EM": 0,
+          "F1": 0.2439
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los fines de la presente resolución, se establecen las siguientes definiciones: Inciso a) Acta Cero: “Acta de Vacunación Única” que se utiliza para documentar la ausencia de existencias de las especies bovina y bubalina en la Unidad Productiva (UP) en discordancia con lo registrado en el Sistema Integrado de Gestión de Sanidad Animal (SIGSA) en la campaña sistemática antiaftosa y antibrucélica en curso. Inciso b) Brucelosis Bovina: enfermedad producida por cualquier especie de Brucella en el ganado bovino.",
+          "EM": 0,
+          "F1": 0.1505
+        },
+        "transformer": {
+          "respuesta": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+          "EM": 0,
+          "F1": 0.5
+        }
+      },
+      {
+        "id": "Q28",
+        "query": "por que es importante la sanidad animal en argentina",
+        "tipo": "semantica",
+        "gold": "La sanidad animal es fundamental para la producción agroalimentaria y el comercio exterior de la República Argentina",
+        "extractivo": {
+          "respuesta": "A los efectos de informar las identificaciones individuales de los animales que ingresan al predio, el productor debe, a partir del 1 de enero de 2026, cumplir con la normativa vigenteen materia de identificación animal.”.",
+          "EM": 0,
+          "F1": 0.1538
+        },
+        "sintetico": {
+          "respuesta": "Definición: A los efectos de informar las identificaciones individuales de los animales que ingresan al predio, el productor debe, a partir del 1 de enero de 2026, cumplir con la normativa vigenteen materia de identificación animal.”. se adecuará el sistema de vigilancia epidemiológica activa con la ejecución de acciones fortalecidas de muestreos serológicos periódicos y anuales, con un diseño estadístico basado en riesgo.",
+          "EM": 0,
+          "F1": 0.125
+        },
+        "transformer": {
+          "respuesta": "El modelo no encontró una respuesta con suficiente confianza en los fragmentos recuperados.",
+          "EM": 0,
+          "F1": 0.0667
+        }
+      },
+      {
+        "id": "Q29",
+        "query": "control y erradicacion de enfermedades animales",
+        "tipo": "mixta",
+        "gold": "El SENASA implementa programas nacionales de control y erradicación de enfermedades que afectan la producción animal",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que Que, en materia de sanidad animal, la prevención es un requisito esencial en la gestión de las enfermedades transmisibles de los animales, y son los titulares de las explotaciones agropecuarias y de los animales, los actores clave para una gestión eficaz de la prevención sanitaria, además de la autoridad competente.",
+          "EM": 0,
+          "F1": 0.1765
+        },
+        "sintetico": {
+          "respuesta": ", en materia de sanidad animal, la prevención es un requisito esencial en la gestión de las enfermedades transmisibles de los animales, y son los titulares de las explotaciones agropecuarias y de los animales, los actores clave para una gestión eficaz de la prevención sanitaria, además de la autoridad competente.",
+          "EM": 0,
+          "F1": 0.1538
+        },
+        "transformer": {
+          "respuesta": "animales enfermos",
+          "EM": 0,
+          "F1": 0.0
+        }
+      },
+      {
+        "id": "Q30",
+        "query": "identificacion animal trazabilidad ganaderia",
+        "tipo": "mixta",
+        "gold": "El sistema de identificación electrónica permite la trazabilidad individual de los animales a lo largo de la cadena productiva",
+        "extractivo": {
+          "respuesta": "CONSIDERANDO: Que la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.1972
+        },
+        "sintetico": {
+          "respuesta": "la identificación y la trazabilidad de los animales son herramientas destinadas a mejorar la aplicación de medidas de prevención, control y erradicación de enfermedades en los animales, incluidas las zoonosis y la seguridad sanitaria de los alimentos, en particular para identificar las fuentes y rutas de contaminación en la carne.",
+          "EM": 0,
+          "F1": 0.2029
+        },
+        "transformer": {
+          "respuesta": "estándares",
+          "EM": 0,
+          "F1": 0.0
+        }
+      }
+    ]
+  }
+}

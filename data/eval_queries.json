@@ -1,0 +1,376 @@
+[
+  {
+    "id": "Q01",
+    "query": "¿Qué es la brucelosis bovina?",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_067-2019_sec3_sub0_c0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "enfermedad producida por cualquier especie de Brucella en el ganado bovino",
+    "fuente": "Res_067-2019 Art. 2 - Definiciones",
+    "nota": "Definición explícita en el artículo 2. Query semántica porque no usa términos exactos del texto."
+  },
+  {
+    "id": "Q02",
+    "query": "Plan Nacional de Control y Erradicación de Brucelosis",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_067-2019_sec2_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se aprueba el Plan Nacional de Control y Erradicación de Brucelosis Bovina en la REPÚBLICA ARGENTINA",
+    "fuente": "Res_067-2019 Art. 1",
+    "nota": "Query léxica: términos clave aparecen casi literalmente en el chunk."
+  },
+  {
+    "id": "Q03",
+    "query": "artículo 2 brucelosis definiciones",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_067-2019_sec3_sub0_c0",
+      "Res_067-2019_sec3_sub0_c1",
+      "Res_067-2019_sec3_sub0_c2"
+    ],
+    "total_relevantes": 3,
+    "respuesta_esperada": "Animal reaccionante positivo: animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+    "fuente": "Res_067-2019 Art. 2",
+    "nota": "Query léxica con número de artículo explícito. Activa la regla estructural del retriever."
+  },
+  {
+    "id": "Q04",
+    "query": "¿Qué se entiende por producto veterinario?",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec16_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "toda sustancia química, biológica, biotecnológica o preparación manufacturada cuya administración sea individual o colectiva, directamente suministrado o mezclado con los alimentos con destino a la prevención, diagnóstico, curación o tratamiento",
+    "fuente": "Res_011-2025 Art. 12 - Definición de producto veterinario",
+    "nota": "Query semántica con paráfrasis ('se entiende por'). El chunk tiene flag es_definicion=True."
+  },
+  {
+    "id": "Q05",
+    "query": "identificación electrónica obligatoria ganado bovino",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_841-2025_sec4_sub0",
+      "Res_530-2025_sec4_sub0"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Se aprueba la norma técnica para la identificación individual electrónica obligatoria del ganado bovino, bubalino y cérvido",
+    "fuente": "Res_841-2025 Art. 1 y Res_530-2025 Art. 1",
+    "nota": "Query mixta: términos léxicos ('ganado bovino') + intención semántica (qué establece). Dos resoluciones relevantes."
+  },
+  {
+    "id": "Q06",
+    "query": "estrategias de vacunación antiaftosa para bovinos 2025",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_711-2025_sec6_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se establecen las Estrategias de Vacunación Antiaftosa para bovinos y bubalinos en todo el Territorio Nacional según las zonas definidas para el año 2025",
+    "fuente": "Res_711-2025 Art. 1",
+    "nota": "Query léxica: frase casi literal al título de la resolución."
+  },
+  {
+    "id": "Q07",
+    "query": "¿Qué regula la normativa de transporte de animales vivos?",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_723-2025_sec3_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se aprueba la norma técnica para la Habilitación Sanitaria de Medios de Transporte de Animales Vivos y Mercancías de Origen Animal",
+    "fuente": "Res_723-2025 Art. 1",
+    "nota": "Query semántica: 'regula' y 'normativa' son paráfrasis de 'marco regulatorio' y 'aprueba la norma'."
+  },
+  {
+    "id": "Q08",
+    "query": "comisiones nacionales de sanidad animal creación",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_542-2021_sec2_sub0_c0",
+      "Res_542-2021_sec2_sub0_c1"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Se crean en el SENASA las Comisiones Nacionales de Sanidad y Bienestar Animal",
+    "fuente": "Res_542-2021 Art. 1",
+    "nota": "Query mixta: combina términos exactos ('comisiones nacionales', 'sanidad animal') con intención ('creación')."
+  },
+  {
+    "id": "Q09",
+    "query": "prevención fiebre aftosa frontera norte Argentina",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_767-2020_sec8_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se fortalecen las acciones de prevención y vigilancia con relación a la Fiebre Aftosa en los departamentos de la frontera norte de la REPÚBLICA ARGENTINA",
+    "fuente": "Res_767-2020 Art. 1",
+    "nota": "Query léxica: términos clave coinciden directamente con el texto."
+  },
+  {
+    "id": "Q10",
+    "query": "excepción vacunación aftosa por pandemia COVID",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_288-2020_sec6_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se exceptúan del cumplimiento de la última vacunación contra la Fiebre Aftosa correspondiente a la campaña en curso",
+    "fuente": "Res_288-2020 Art. 1",
+    "nota": "Query semántica: 'pandemia COVID' no aparece textualmente en el chunk; requiere comprensión del contexto (Res de marzo 2020)."
+  },
+  {
+    "id": "Q11",
+    "query": "artículo 1 resolución 530 identificación electrónica",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_530-2025_sec4_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Se mantiene el Sistema Nacional de Identificación Electrónica de Animales",
+    "fuente": "Res_530-2025 Art. 1",
+    "nota": "Query léxica con número de artículo y resolución explícitos. Máxima especificidad estructural."
+  },
+  {
+    "id": "Q12",
+    "query": "¿Cuáles son los requisitos para registrar una empresa elaboradora de productos veterinarios?",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec7_sub0_c0",
+      "Res_011-2025_sec7_sub0_c1"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Toda persona humana y/o jurídica que elabore, fraccione, acondicione, comercialice productos veterinarios debe inscribirse en el Registro Nacional de Empresas",
+    "fuente": "Res_011-2025 Art. 3",
+    "nota": "Query semántica de procedimiento: requiere inferir que 'registrar empresa' corresponde a 'inscripción en el Registro Nacional'."
+  },
+  {
+    "id": "Q13",
+    "query": "objetivo comisiones sanidad bienestar animal",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_542-2021_sec3_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "El objetivo de las Comisiones Nacionales es contar con un ámbito participativo para compartir e intercambiar información relevante",
+    "fuente": "Res_542-2021 Art. 2",
+    "nota": "Query mixta: 'objetivo' es término exacto del artículo 2, pero combinado con términos generales."
+  },
+  {
+    "id": "Q14",
+    "query": "vacunación antibrucélica obligatoria hembras bovinas",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_150-2002_sec0_sub0_c1"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "animal susceptible a la enfermedad en la categoría reproductores deberá contar con un certificado de seronegatividadad",
+    "fuente": "Res_150-2002",
+    "nota": "Query léxica sobre Res_150-2002 (programa de control brucelosis 2002)."
+  },
+  {
+    "id": "Q15",
+    "query": "¿Qué animales deben ser identificados electrónicamente según la normativa vigente?",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_841-2025_sec5_sub0",
+      "Res_530-2025_sec5_sub0_c0"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Las personas propietarias de ganado bovino, bubalino y cérvido deben implementar el Sistema Nacional de Identificación Electrónica",
+    "fuente": "Res_841-2025 Art. 2 y Res_530-2025 Art. 2",
+    "nota": "Query semántica amplia: involucra dos resoluciones sobre el mismo sistema. Evalúa cobertura entre documentos."
+  },
+  {
+    "id": "Q16",
+    "query": "definicion producto veterinario",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec16_sub0"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "sustancia química, biológica, biotecnológica o preparación manufacturada para prevención, diagnóstico, curación o tratamiento",
+    "fuente": "Res_011-2025 - Definición producto veterinario",
+    "nota": "Query semántica sin acento ni signos. Paráfrasis de la definición formal."
+  },
+  {
+    "id": "Q17",
+    "query": "que es un animal reaccionante positivo",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_067-2019_sec3_sub0_c0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "animal que ha resultado positivo a cualquiera de las pruebas diagnósticas serológicas confirmatorias",
+    "fuente": "Res_067-2019 Art. 2 - Definiciones brucelosis",
+    "nota": "Query semántica coloquial. Respuesta en sección de definiciones."
+  },
+  {
+    "id": "Q18",
+    "query": "definicion producto biologico veterinario",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec53_sub0"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "producto veterinario cuyo principio activo es de origen biológico",
+    "fuente": "Res_011-2025 - Definición producto biológico",
+    "nota": "Query semántica. Distingue del producto veterinario general."
+  },
+  {
+    "id": "Q19",
+    "query": "articulo 3 resolucion 067 brucelosis",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_067-2019_sec4_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "El SENASA aplicará las medidas de diagnóstico, prevención y control de la Brucelosis Bovina",
+    "fuente": "Res_067-2019 Art. 3",
+    "nota": "Query léxica con número de artículo y resolución explícitos."
+  },
+  {
+    "id": "Q20",
+    "query": "articulo 20 resolucion 011 productos veterinarios",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_011-2025_sec25_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Los productos veterinarios registrados deberán cumplir con las especificaciones de calidad declaradas",
+    "fuente": "Res_011-2025 Art. 20",
+    "nota": "Query léxica con artículo y resolución específicos."
+  },
+  {
+    "id": "Q21",
+    "query": "articulo 88 resolucion 011",
+    "tipo": "lexica",
+    "gold_ids": [
+      "Res_011-2025_sec98_sub0"
+    ],
+    "total_relevantes": 1,
+    "respuesta_esperada": "Las infracciones a las disposiciones de la presente resolución serán sancionadas",
+    "fuente": "Res_011-2025 Art. 88",
+    "nota": "Query léxica de artículo avanzado. Activa bypass estructural."
+  },
+  {
+    "id": "Q22",
+    "query": "obligaciones de los productores bovinos brucelosis",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_067-2019_sec33_sub0_c0"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Los productores deberán vacunar las hembras bovinas y bubalinas de entre 3 y 8 meses de edad",
+    "fuente": "Res_067-2019 - Obligaciones productores",
+    "nota": "Query mixta: términos exactos + intención normativa."
+  },
+  {
+    "id": "Q23",
+    "query": "medidas sanitarias obligatorias brucelosis",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_067-2019_sec7_sub0",
+      "Res_067-2019_sec8_sub0"
+    ],
+    "total_relevantes": 3,
+    "respuesta_esperada": "Se prohíbe el movimiento de animales reaccionantes positivos sin autorización del SENASA",
+    "fuente": "Res_067-2019 - Medidas sanitarias",
+    "nota": "Query mixta con dos chunks relevantes. Evalúa cobertura."
+  },
+  {
+    "id": "Q24",
+    "query": "requisitos para registrar producto veterinario no biologico",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_011-2025_sec23_sub0"
+    ],
+    "total_relevantes": 3,
+    "respuesta_esperada": "El solicitante deberá presentar documentación técnica, analítica y legal del producto",
+    "fuente": "Res_011-2025 Art. 18 - Registro producto no biológico",
+    "nota": "Query mixta. Especifica tipo de producto."
+  },
+  {
+    "id": "Q25",
+    "query": "como solicitar el registro de un producto veterinario",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec23_sub0",
+      "Res_011-2025_sec24_sub0"
+    ],
+    "total_relevantes": 4,
+    "respuesta_esperada": "La solicitud de registro se presentará ante el SENASA con la documentación requerida",
+    "fuente": "Res_011-2025 Arts. 18-19 - Procedimiento de registro",
+    "nota": "Query semántica de procedimiento. Dos chunks relevantes."
+  },
+  {
+    "id": "Q26",
+    "query": "inscripcion obligatoria proveedores senasa dispositivos identificacion",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_530-2025_sec0_sub11",
+      "Res_011-2025_sec1_sub0_c2"
+    ],
+    "total_relevantes": 2,
+    "respuesta_esperada": "Los proveedores de dispositivos de identificación deberán inscribirse en el registro habilitado por el SENASA",
+    "fuente": "Res_530-2025 y Res_011-2025 - Inscripción proveedores",
+    "nota": "Query semántica. Cruza dos resoluciones distintas."
+  },
+  {
+    "id": "Q27",
+    "query": "brucelosis bovina que es enfermedad",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_067-2019_sec0_sub2",
+      "Res_067-2019_sec3_sub0_c0"
+    ],
+    "total_relevantes": 3,
+    "respuesta_esperada": "enfermedad infectocontagiosa producida por bacterias del género Brucella que afecta al ganado bovino",
+    "fuente": "Res_067-2019 - Descripción brucelosis",
+    "nota": "Query semántica coloquial sin signos de pregunta."
+  },
+  {
+    "id": "Q28",
+    "query": "por que es importante la sanidad animal en argentina",
+    "tipo": "semantica",
+    "gold_ids": [
+      "Res_011-2025_sec0_sub0",
+      "Res_723-2025_sec0_sub0_c0"
+    ],
+    "total_relevantes": 4,
+    "respuesta_esperada": "La sanidad animal es fundamental para la producción agroalimentaria y el comercio exterior de la República Argentina",
+    "fuente": "Res_011-2025 y Res_723-2025 - Considerandos",
+    "nota": "Query semántica amplia. Evalúa capacidad de recuperar argumentos normativos."
+  },
+  {
+    "id": "Q29",
+    "query": "control y erradicacion de enfermedades animales",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_067-2019_sec0_sub2",
+      "Res_011-2025_sec0_sub0",
+      "Res_530-2025_sec0_sub8"
+    ],
+    "total_relevantes": 6,
+    "respuesta_esperada": "El SENASA implementa programas nacionales de control y erradicación de enfermedades que afectan la producción animal",
+    "fuente": "Múltiples resoluciones - Programas sanitarios",
+    "nota": "Query mixta amplia. Tres chunks relevantes en tres resoluciones distintas."
+  },
+  {
+    "id": "Q30",
+    "query": "identificacion animal trazabilidad ganaderia",
+    "tipo": "mixta",
+    "gold_ids": [
+      "Res_530-2025_sec0_sub3",
+      "Res_530-2025_sec0_sub8"
+    ],
+    "total_relevantes": 5,
+    "respuesta_esperada": "El sistema de identificación electrónica permite la trazabilidad individual de los animales a lo largo de la cadena productiva",
+    "fuente": "Res_530-2025 - Trazabilidad ganadera",
+    "nota": "Query mixta. Sin acentos. Dos chunks en la misma resolución."
+  }
+]
