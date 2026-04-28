@@ -92,7 +92,7 @@ TFI_comprension_normativa/
 ### 1. Clonar el repositorio y crear entorno virtual
 
 ```bash
-git clone <url-del-repo>
+git clone https://github.com/Fica-Millan/unlam_SNLP_senasa-nlp-retrieval-qa.git
 cd TFI_comprension_normativa
 python -m venv venv
 source venv/bin/activate        # Linux/Mac
